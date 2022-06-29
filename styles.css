@@ -1,14 +1,36 @@
 p{
     color: blueviolet;
-    font-size: 30px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
 } 
 
+.titulo{
+text-align: center;
+}
 
 .primerparrafo{
     color: red; 
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color:burlywood;
  }
 
 
  #parrafoprincipal{
     color: darkblue;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color:blanchedalmond;
  }
+
+ .img{
+    width:50px;
+    height:50px;
+ }
+
+ .listaordenada{
+  list-style-type:circle;
+ }
+
+ 
