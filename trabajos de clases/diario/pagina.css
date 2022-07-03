@@ -1,0 +1,31 @@
+.standar{
+   background-color: aqua;
+   border: 10px solid black;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 50px;
+}
+
+
+.bloque1{
+   display: block;
+   width: auto;
+   padding: 10px;
+}
+
+.bloque2{
+    display: inline-block;
+    width: 40%;
+    height: 600px;
+}
+
+.bloque3{
+    display: inline-block;
+    width: 40%;
+    height: 600px;
+}
+
+
+
+  
+
