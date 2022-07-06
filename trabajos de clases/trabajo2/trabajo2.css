@@ -1,11 +1,104 @@
-.encabezado{
+.contenedor{
     display: flex;
-    flex-direction: column;
-    text-align: end;
+    flex-direction:row;
+    border: solid 4px;
+    color: black;
+    height: 15%;
+    margin: 5px;
 }
+
+.encabezado{
+    width:80%;
+    height: 50px;
+    border: solid 4px;
+    color: black;
+}
+
+.menu1{
+    text-align: end;
+    width:20%;
+    height: 20px;
+    border: solid 4px;
+    color: red;
+}
+
+.contenedor2{
+    flex-direction: row;
+   border: solid 4px;
+    color: blue;
+}
+
 
 .logo{
-    width: 40px;
-    height: 40px;
+    text-align: end;
+    width:20%;
+    height: 60px;
+    border: solid 4px;
+    color: red;
 }
 
+.menu2{
+    text-align: left;
+    width:80%;
+    height: 20px;
+    border: solid 4px;
+    color: black;
+}
+
+.padre{
+    display: flex;
+    flex-direction: row;
+    border: solid 4px;
+    color:brown;
+    height: 45%;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.izquierda1{
+    width: 30%;
+    border: solid 4px;
+    color:aqua;
+}
+
+.centro{
+    width: 30%;  
+    border: solid 4px;
+    color:chartreuse;
+}
+
+.derecha{
+    width: 30%;
+    border: solid 4px;
+    color:chartreuse;
+}
+
+
+.padre2{
+    display: flex;
+    flex-direction: row;
+    border: solid 4px;
+    color:black;
+    height: 45%;
+    justify-content: space-between;
+    margin: 5px;
+    
+}
+
+.izquierda2{
+    width: 64%;
+    border: solid 4px;
+    color:cornflowerblue;
+}
+
+.derecha2{
+    width: 30%;
+    border: solid 4px;
+    color:blueviolet;
+}
+
+.pie{
+    border: solid 4px;
+    color:rgb(236, 3, 3);
+    margin: 5px;
+}
