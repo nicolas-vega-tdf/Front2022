@@ -1,0 +1,11 @@
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
