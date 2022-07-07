@@ -1,36 +1,34 @@
+.general{
+    border: solid 2px;
+    color: black;
+}
+
 .contenedor{
     display: flex;
     flex-direction:row;
-    border: solid 4px;
-    color: black;
-    height: 15%;
     margin: 5px;
 }
 
 .encabezado{
     width:80%;
     height: 50px;
+}
+
+.menu1{
+    text-align: center;
+    width:20%;
+    height: 20px;
     border: solid 4px;
     color: black;
 }
 
-.menu1{
-    text-align: end;
-    width:20%;
-    height: 20px;
-    border: solid 4px;
-    color: red;
-}
-
 .contenedor2{
+    display: flex;
     flex-direction: row;
-   border: solid 4px;
-    color: blue;
 }
 
 
 .logo{
-    text-align: end;
     width:20%;
     height: 60px;
     border: solid 4px;
@@ -38,18 +36,17 @@
 }
 
 .menu2{
-    text-align: left;
-    width:80%;
+    text-align: center;
+    width:70%;
     height: 20px;
     border: solid 4px;
     color: black;
+    margin-left: 10%;
 }
 
 .padre{
     display: flex;
     flex-direction: row;
-    border: solid 4px;
-    color:brown;
     height: 45%;
     justify-content: space-between;
     margin: 5px;
@@ -77,8 +74,6 @@
 .padre2{
     display: flex;
     flex-direction: row;
-    border: solid 4px;
-    color:black;
     height: 45%;
     justify-content: space-between;
     margin: 5px;
@@ -98,7 +93,7 @@
 }
 
 .pie{
-    border: solid 4px;
+    border: solid 2px;
     color:rgb(236, 3, 3);
     margin: 5px;
 }
