@@ -1,6 +1,9 @@
 .general{
-    border: solid 2px;
-    color: black;
+    border: 2px solid black;
+}
+
+.fondo{
+    background-color: bisque;
 }
 
 .contenedor{
@@ -18,8 +21,7 @@
     text-align: center;
     width:20%;
     height: 20px;
-    border: solid 2px;
-    color: black;
+    border: 2px solid black;
 }
 
 .contenedor2{
@@ -39,8 +41,7 @@
     text-align: center;
     width:70%;
     height: 20px;
-    border: solid 2px;
-    color: black;
+    border: 2px solid black;
     margin-left: 10%;
 }
 
@@ -54,20 +55,17 @@
 
 .izquierda1{
     width: 30%;
-    border: solid 4px;
-    color:aqua;
+    border: 4px solid rgb(246, 250, 3);
 }
 
 .centro{
     width: 30%;  
-    border: solid 4px;
-    color:chartreuse;
+    border: 4px solid rgb(246, 250, 3);
 }
 
 .derecha{
     width: 30%;
-    border: solid 4px;
-    color:chartreuse;
+    border: 4px solid rgb(246, 250, 3);
 }
 
 
@@ -82,8 +80,7 @@
 
 .izquierda2{
     width: 64%;
-    border: solid 4px;
-    color:cornflowerblue;
+    border: 4px solid rgb(246, 250, 3);
 }
 
 .imagenojo{
@@ -93,13 +90,11 @@
 
 .derecha2{
     width: 30%;
-    border: solid 4px;
-    color:blueviolet;
+    border: 4px solid rgb(246, 250, 3);
 }
 
 .pie{
-    border: solid 1px;
-    color:rgb(236, 3, 3);
+    border: 1px solid red;
     margin: 5px;
 }
 
