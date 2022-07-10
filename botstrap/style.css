@@ -1,11 +1,13 @@
 .borde{
-    border: 2px solid black;
+    border: 2px solid #659EF1;
+}
+
+.img-fluid{
+    width: 25%;
 }
 
 .altura{
     height: 415px;
 }
 
-.espacio{
-    margin-top: 10px;
-}
+
