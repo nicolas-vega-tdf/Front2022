@@ -1,0 +1,19 @@
+div > p{
+    background-color: blueviolet;
+}
+
+div + h2{
+    background-color: darkblue;
+}
+
+p ~ h2{
+    background-color: darkgreen;
+}
+
+p span{
+    color: rgb(198, 0, 0.95);
+}
+
+h1:hover{
+    background-color: violet;
+}
