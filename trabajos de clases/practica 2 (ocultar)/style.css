@@ -1,0 +1,13 @@
+.estilo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: pink;
+}
+
+.borde{
+    border: 2px solid blue;
+    background-color: antiquewhite;
+}
+
+.ocultar{
+    display: none;
+}
