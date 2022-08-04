@@ -25,7 +25,7 @@ function agregarProductoAlCarrito(){
     cantidadDeProducto.push(cantidad);
 
     let miItem = document.createElement("li");
-    miItem.innerHTML = producto + "- " + cantidadDeProducto + " - " + precio; 
+    miItem.innerHTML = producto + "- " + cantidad + " - " + precio; 
 
     miItem.classList.add("colorRojo");
 
