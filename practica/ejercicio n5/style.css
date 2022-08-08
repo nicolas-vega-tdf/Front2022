@@ -1,0 +1,61 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    border: 4px solid black;
+    height: 50px;
+}
+
+.div1{
+    border: 2px solid blue;
+    height: 220px;
+}
+
+.div2{
+    border: 2px solid blue;
+    height: 150px;
+}
+
+.pie{
+    border: 2px solid pink;
+    height: 65px;
+}
+
+
+@media only screen and (min-width: 660px) {
+    .contenedor{
+        display: flex;
+       flex-direction: column;
+       height: 575px;
+    }
+    
+    .titulo{
+        border: 4px solid black;
+        height: 25%;
+    }
+    
+    .medio{
+        border: 2px solid blue;
+        height: 50%;
+        display: flex;
+        flex-direction: row; 
+    }
+    .div1{
+        border: 2px solid blue;
+        width: 50%;
+        height: auto;
+    }
+    
+    .div2{
+        border: 2px solid blue;
+        width: 50%;
+        height: auto;
+    }
+    
+    .pie{
+        border: 2px solid pink;
+        height: 25%;
+    }
+}
