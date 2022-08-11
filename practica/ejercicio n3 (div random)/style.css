@@ -1,0 +1,50 @@
+
+.clase1{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 500px;
+    height: 100px;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.clase2{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    width: 800px;
+    height: 500px;
+    margin-right: 17%;
+    text-align: end;
+}
+
+.clase3{
+    display: flex;
+    flex-direction: column;
+    background-color:green;
+    width: 200px;
+    height: 700px;
+    margin-right: 20%;
+    text-align: start;
+}
+
+.clase4{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: gold;
+    width: 100px;
+    height: 900px;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.clase5{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    width: 500px;
+    height: 100px;
+    margin-right: 10%;
+    text-align: center;
+}
