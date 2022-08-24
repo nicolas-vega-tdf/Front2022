@@ -4,13 +4,13 @@
     align-items: center;
     padding: 20px;
     height: 100px;
-    
+    background-color: #e2e2e2;
 }
 
 #logo{
     width: 30%;
     align-items: center;
-    color: orange;
+    color: blue;
 }
 
 #navbar ul {
@@ -19,20 +19,20 @@
     justify-content: space-between;
     align-items: center;
     width: 60%;
-    border: 2px solid black;
 }
 
 #navbar ul li a {
-    border: 2px solid black;
-    background-color: orangered;
-    color:white;
+    color:blue;
 }
 
 .contenedor{
-    vertical-align: text-bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-img.alineado{
+img{
     width: 100%;
     height: 700px;
 }
@@ -43,4 +43,21 @@ img.alineado{
     align-items: center;
     justify-content: space-between;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+
+.pie{
+    display: flex;
+    color:blue ;
+    background-color: #e2e2e2;
+    height: 100px;
+    align-items: center;
+    font-size:xx-large;
 }
