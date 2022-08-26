@@ -8,11 +8,11 @@ let btnComprar = document.getElementById("btnComprar");
 btnComprar.addEventListener("click",comprar);
 
 let total = 0;
+
 let productos = ["azucar","leche","miel","cerveza","galletitas"];
 let stock = [10,15,10,20,15];
 let precio =[150,230,400,300,50];
-
-let cantidad = [];
+let cantidad = [] ;
 
 function cargarProductos(){
     console.log("entro funcion 1");
@@ -28,20 +28,29 @@ function cargarProductos(){
         selecionarCantidad.type = "number";
         selecionarCantidad.max = stock[i];
         selecionarCantidad.min = "0" ;
+        selecionarCantidad.id = `selectCantidad${i}`;
         divProductos.appendChild(nombreProductos);
         divProductos.appendChild(precioProducto);
         divProductos.appendChild(selecionarCantidad);
         cargarProductos1.appendChild(divProductos);
-        cantidad = selecionarCantidad.value;
+        //cantidad = selecionarCantidad.value;
     }
-   
 }
-
-
 function comprar (){
-    for(let i = 0; i < cantidad.length ; i++){
-      total = cantidad * precio ;  
-      //document.querySelector("#cargarProductos").innerHTML = "El resumen de su compra es: " + productos + cantidad + " y el total es: " + total;
+    for(let i = 0; i < stock.length ; i++){
+    let selecionarCantidad = document.getElementById(`selectCantidad${i}`);
+     cantidad[i]= parseInt(selecionarCantidad.value);
+    } 
+     
+     for(let i = 0; i < stock.length ; i++){
+      total += cantidad[i] * precio[i] ;
+     
     }
-    document.querySelector("#cargarProductos").innerHTML = "El resumen de su compra es: " + productos + cantidad + " y el total es: " + total;
+    console.log(cantidad);
+    console.log("El resumen de su compra es :")
+    for(let i = 0; i < productos.length; i++){
+   //document.querySelector("#cargarProductos").innerHTML[i] = "El resumen de su compra es: " + productos[i] + cantidad[i] + " y el total es: " + total;
+   console.log( cantidad[i] +" "+ productos[i] )
+    }
+    console.log("el total de su compra es : " + total);
 }
