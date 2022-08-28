@@ -1,4 +1,6 @@
 
+
+
 let btnMostrar = document.getElementById("btnMostrar");
 btnMostrar.addEventListener("click",cargarProductos);
 
@@ -54,3 +56,4 @@ function comprar (){
     }
     console.log("el total de su compra es : " + total);
 }
+

@@ -1,3 +1,7 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 #navbar{
     display: flex;
     justify-content: flex-start;
@@ -11,6 +15,7 @@
     width: 30%;
     align-items: center;
     color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #navbar ul {
@@ -34,7 +39,7 @@
 
 img{
     width: 100%;
-    height: 700px;
+    height: 500px;
 }
 
 .productos-estilo{
@@ -57,7 +62,27 @@ img{
     display: flex;
     color:blue ;
     background-color: #e2e2e2;
-    height: 100px;
+    height: 80px;
     align-items: center;
     font-size:xx-large;
+    padding-left: 33%;
+}
+
+#titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.enviar{
+    display: flex;
+    flex-direction: row;
+}
+
+#btnEnviar{
+color: green;
+margin: 5px;
+}
+
+#btnEliminar{
+color: red;
+margin: 5px;
 }
