@@ -13,7 +13,7 @@ let total = 0;
 
 let productos = ["azucar","leche","miel","cerveza","galletitas"];
 let stock = [10,15,10,20,15];
-let precio =[150,230,400,300,50];
+let precio =[108,145,535,326,187];
 let cantidad = [] ;
 
 function cargarProductos(){
@@ -45,8 +45,11 @@ function comprar (){
     } 
      
      for(let i = 0; i < stock.length ; i++){
-      total += cantidad[i] * precio[i] ;
-     
+        if(cantidad[i] >= stock[i]){
+            alert("la cantidad selecionada de "+ productos[i] +" no esta disponible");
+        }else{
+            total += cantidad[i] * precio[i] ;
+        }
     }
     console.log(cantidad);
     console.log("El resumen de su compra es :")
