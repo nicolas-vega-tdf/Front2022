@@ -35,7 +35,6 @@ function cargarProductos(){
         divProductos.appendChild(precioProducto);
         divProductos.appendChild(selecionarCantidad);
         cargarProductos1.appendChild(divProductos);
-        //cantidad = selecionarCantidad.value;
     }
 }
 function comprar (){
@@ -54,8 +53,7 @@ function comprar (){
     console.log(cantidad);
     console.log("El resumen de su compra es :")
     for(let i = 0; i < productos.length; i++){
-   //document.querySelector("#cargarProductos").innerHTML[i] = "El resumen de su compra es: " + productos[i] + cantidad[i] + " y el total es: " + total;
-   console.log( cantidad[i] +" "+ productos[i] )
+     console.log( cantidad[i] +" "+ productos[i] )
     }
     console.log("el total de su compra es : " + total);
 }
