@@ -8,7 +8,7 @@ body{
     align-items: center;
     padding: 20px;
     height: 100px;
-    background-color: #e2e2e2;
+    background-color: #A9A9A9;
 }
 
 #logo{
@@ -61,7 +61,7 @@ img{
 .pie{
     display: flex;
     color:blue ;
-    background-color: #e2e2e2;
+    background-color: #A9A9A9;
     height: 80px;
     align-items: center;
     font-size:xx-large;
@@ -70,6 +70,7 @@ img{
 
 #titulo{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:blueviolet;
 }
 
 .enviar{
@@ -85,4 +86,8 @@ margin: 5px;
 #btnEliminar{
 color: red;
 margin: 5px;
+}
+
+.descripcion{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

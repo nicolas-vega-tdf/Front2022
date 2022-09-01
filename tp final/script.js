@@ -1,6 +1,4 @@
 
-
-
 let btnMostrar = document.getElementById("btnMostrar");
 btnMostrar.addEventListener("click",cargarProductos);
 
@@ -39,8 +37,8 @@ function cargarProductos(){
 }
 function comprar (){
     for(let i = 0; i < stock.length ; i++){
-    let selecionarCantidad = document.getElementById(`selectCantidad${i}`);
-     cantidad[i]= parseInt(selecionarCantidad.value);
+        let selecionarCantidad = document.getElementById(`selectCantidad${i}`);
+        cantidad[i]= parseInt(selecionarCantidad.value);
     } 
      
      for(let i = 0; i < stock.length ; i++){
@@ -50,10 +48,9 @@ function comprar (){
             total += cantidad[i] * precio[i] ;
         }
     }
-    console.log(cantidad);
-    console.log("El resumen de su compra es :")
+    console.log("El resumen de su compra es :");
     for(let i = 0; i < productos.length; i++){
-     console.log( cantidad[i] +" "+ productos[i] )
+     console.log( cantidad[i] +" "+ productos[i] );
     }
     console.log("el total de su compra es : " + total);
 }
