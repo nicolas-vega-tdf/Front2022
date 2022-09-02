@@ -15,7 +15,6 @@ let precio =[108,145,535,326,187];
 let cantidad = [] ;
 
 function cargarProductos(){
-    console.log("entro funcion 1");
     for(let i = 0; i < stock.length; i++){
         let divProductos = document.createElement("div");
         divProductos.classList.add("productos-estilo");
@@ -42,7 +41,7 @@ function comprar (){
     } 
      
      for(let i = 0; i < stock.length ; i++){
-        if(cantidad[i] >= stock[i]){
+        if(cantidad[i] > stock[i]){
             alert("la cantidad selecionada de "+ productos[i] +" no esta disponible");
         }else{
             total += cantidad[i] * precio[i] ;
@@ -50,8 +49,8 @@ function comprar (){
     }
     console.log("El resumen de su compra es :");
     for(let i = 0; i < productos.length; i++){
-     console.log( cantidad[i] +" "+ productos[i] );
+     console.log( cantidad[i] +" unidades de "+ productos[i] );
     }
-    console.log("el total de su compra es : " + total);
+    console.log("el total de su compra es : " +"$"+ total);
 }
 

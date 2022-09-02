@@ -79,13 +79,13 @@ img{
 }
 
 #btnEnviar{
-color: green;
-margin: 5px;
+    color: green;
+    margin: 5px;
 }
 
 #btnEliminar{
-color: red;
-margin: 5px;
+    color: red;
+    margin: 5px;
 }
 
 .descripcion{
