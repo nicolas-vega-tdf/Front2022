@@ -1,0 +1,39 @@
+
+
+th{
+    border: 1px solid rgb(63, 41, 161);
+}
+
+td {
+    border: 1px solid rgb(63, 41, 161);
+    
+}
+
+#table{
+    background-color: beige;
+}
+
+img {
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 150px;
+}
+
+.personajes{
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    margin-left: 23%;
+    margin-top: 12%;
+    width: 20%;
+    height: 40%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: #ddd;
+}
+
+section:hover{
+    box-shadow: 0 0 2px 1px rgba(3, 0, 186, 0.5);
+}
